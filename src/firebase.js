@@ -6,16 +6,6 @@ import { getStorage } from "firebase/storage";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDECxEW4uUlBGGz2sNOAuZU0s3JKD3e3fY",
-//   authDomain: "pcweb7-poopspots.firebaseapp.com",
-//   projectId: "pcweb7-poopspots",
-//   storageBucket: "pcweb7-poopspots.appspot.com",
-//   messagingSenderId: "216619826362",
-//   appId: "1:216619826362:web:adea0d97d4594b71631683"
-// };
-
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
